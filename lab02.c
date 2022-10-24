@@ -1,5 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+//1 DEFINIÇÃO DO PROBLEMA
+//A biblioteca do ICT deseja realizar um estudo para coletar o perfil dos estudantes que
+//realizam a reserva de um determinado livro. O objetivo é identificar quantos alunos de
+//cada ano utilizam aquele livro. Considere que a lista de reserva de um determinado
+//livro pode conter no máximo 10 reservas.
+
+//TAREFA A
+//Desenvolva um algoritmo em linguagem C - utilizando lista estática encadeada -
+//que forneça uma lista com os números de RA’s ordenados dos alunos que realizaram
+//a reserva de um determinado livro. Além disso, seu algoritmo também deve fornecer
+//quantos usuários de cada ano realizaram a reserva daquele livro.
+//Para obter essa informação, considere que o RA dos alunos do ICT muda de acordo
+//com o ano de entrada na universidade. Por exemplo, todos os alunos que entraram
+//em 2013 possuem um RA de 5 dígitos que inicia com 86. Os alunos que entraram em
+//2014, possuem um RA de 5 dígitos que inicia com 96. Os alunos que entraram em
+//2015 possuem RA de 6 dígitos que inicia com 106, assim por diante.
+
 
 typedef struct No {
   int RA;
